@@ -259,5 +259,7 @@ G2 = [
 ]
 
 parser("x*x+x", G)
+parser("x*(x+x)+x", G)
+parser("x*(x+x+x", G)
 
 parser("ababb", G2)
